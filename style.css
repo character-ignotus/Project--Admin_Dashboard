@@ -24,7 +24,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     padding: 15px;
-    background: #2dd4bf;
+    background-color: #2dd4bf;
     color: white;
 }
 
@@ -48,6 +48,7 @@ body {
 .header {
     grid-column: 2 / 3;
     grid-row: 1;
+    padding: 7.5px 40px 0 40px;
 }
 
 .header-top {
@@ -55,7 +56,6 @@ body {
     gap: 0 20px; 
     grid-template-columns: 5fr 1fr;
     justify-content: space-between;
-    padding: 7.5px 40px 0 40px;
 }
 
 .search-section {
@@ -95,11 +95,62 @@ input[type='search']:focus {
 
 .account-section > p {
     font-size: 1.15rem;
-    font-weight: 1000;
+    font-weight: 700;
 }
 
 .header-bottom {
-    border: 1px solid black
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 4fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    row-gap: 2.5px;
+}
+
+.profile-section > img {
+    width: 75px;
+    height: 75px;
+}
+
+.profile-section > div {
+    align-self: center;
+}
+
+.profile-section > div > p:nth-child(1) {
+    font-size: 0.85rem;
+    font-weight: 1000;
+    min-width: 145px;
+} 
+
+.profile-section > div > p:nth-child(2) {
+    font-size: 1.35rem;
+    font-weight: 1000;
+    min-width: 145px;
+} 
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: end;
+    gap: 25px;
+}
+
+.buttons > button {
+    font-size: 1.15rem;
+    font-weight: 900;
+    height: 35px;
+    width: 87.5px;
+    border-radius: 18px;
+    border: 0px;
+    background-color: #2dd4bf;
+    color: white;
 }
 
 .main-content {
