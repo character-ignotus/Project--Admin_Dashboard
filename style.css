@@ -10,7 +10,7 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4.5fr;
+    grid-template-columns: 1fr 5fr;
 }
 
 .header, .main-content {
@@ -28,30 +28,15 @@ body {
     color: white;
 }
 
-.icons > div:nth-child(1) {
-    height: 48px;
-}
-
-.icons > div:nth-child(2) {
-    padding-top: 30px;
+.icons {
     display: grid;
     grid-auto-rows: 40px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
-}
+} 
 
-.text > div:nth-child(1) {
-    height: 48px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 1000;
-    padding-left: 10px;
-}   
-
-.text > div:nth-child(2) {
-    padding-top: 30px;
+.text {
     display: grid;
     grid-auto-rows: 40px;
     font-size: 1.15rem;
@@ -59,7 +44,6 @@ body {
     align-items: center;
     padding-left: 10px;
 }
-
 
 .header {
     grid-column: 2 / 3;
