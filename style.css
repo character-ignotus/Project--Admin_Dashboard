@@ -48,10 +48,57 @@ body {
 .header {
     grid-column: 2 / 3;
     grid-row: 1;
-    padding: 15px;
 }
 
-.header > div {
+.header-top {
+    display: grid;
+    gap: 0 20px; 
+    grid-template-columns: 5fr 1fr;
+    justify-content: space-between;
+    padding: 7.5px 40px 0 40px;
+}
+
+.search-section {
+    /* border: 1px solid red; */
+
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 30fr;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='search'] {
+    border: 0px;
+    background-color: #c9e9e1;
+    border-radius: 15px;
+    height: 26.19px;
+    padding: 0 12px;
+    font-weight: 600;
+    width: min(100%, 600px);
+}
+
+input[type='search']:focus {
+    background-color: #b4e5d9;
+}
+
+.account-section {
+    /* border: 1px solid red; */
+
+    grid-column: 2 / 3;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 115px;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-section > p {
+    font-size: 1.15rem;
+    font-weight: 1000;
+}
+
+.header-bottom {
     border: 1px solid black
 }
 
@@ -59,4 +106,14 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #f0fdfa;
+    
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+  
+.card {
+    border: 1px solid black;
+    height: 200px;
 }
