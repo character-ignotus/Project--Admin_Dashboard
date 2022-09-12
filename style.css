@@ -219,7 +219,7 @@ input[type='search']:focus {
 
 .announcments-card {
     padding: 15px 25px;
-    height: 310px;
+    height: 350px;
     min-width: 250px;
     font-size: 0.8rem;
     display: grid;
@@ -253,18 +253,44 @@ input[type='search']:focus {
 }
 
 .trending-title {
-    border: 1px solid black;
     font-size: 1.15rem;
     font-weight: 800;
     margin-top: 35px;
 }
 
 .trending-card {
-    border: 1px solid black;
-    height: 270px;
+    height: 230px;
     min-width: 250px;
+    display: grid;
+    padding: 12.5px 25px;
+    background-color: white;
+    color: rgb(110, 110, 110);
+    box-shadow: 5px 5px 4px rgb(208, 205, 205);
+    border-radius: 8px;
 }
-  
+
+.trending-account {
+    display: grid;
+    grid-template-columns: 45px 2fr;
+    column-gap: 10px;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.trending-account > div:nth-child(1) {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(Images/Icons/profile-pic-test.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-account > div:nth-child(2) > p:nth-child(1) {
+    font-weight: 800;
+    color: black;
+}
+
 .card {
     border: 1px solid black;
     height: 200px;
