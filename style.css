@@ -320,3 +320,17 @@ input[type='search']:focus {
     display: flex;
     gap: 25px;
 }
+
+.side-section {
+    position: relative;
+}
+
+.trending-title {
+    position: sticky;
+    top: 5px
+}
+
+.trending-card {
+    position: sticky;
+    top: 37.4px
+}
