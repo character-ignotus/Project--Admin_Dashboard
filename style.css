@@ -334,3 +334,28 @@ input[type='search']:focus {
     position: sticky;
     top: 37.4px
 }
+
+@media (max-width: 960px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+
+    .side-section {
+        display: none;
+    }
+}
+
+@media (max-width: 870px) {
+    body {
+        grid-template-columns: 78px 1fr;
+    }
+
+    .sidebar {
+        grid-template-columns: 48px;
+        min-width: 0px;
+    }
+
+    .text {
+        display: none;
+    }
+}
