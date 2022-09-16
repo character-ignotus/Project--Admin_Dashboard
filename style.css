@@ -24,8 +24,8 @@ body {
     z-index: 2;
 
     
-    /* position: relative;
-    min-width: 230px; */
+    position: relative;
+    min-width: 230px;
 }
 
 .icons {
@@ -35,7 +35,7 @@ body {
     justify-items: center;
     align-items: center;
 
-    /* position: fixed; */
+    position: fixed;
 } 
 
 .text {
@@ -46,8 +46,8 @@ body {
     align-items: center;
     padding-left: 10px;
 
-    /* position: fixed;
-    left: 62.5px;  */
+    position: fixed;
+    left: 62.5px; 
 }
 
 .header {
