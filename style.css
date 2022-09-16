@@ -109,7 +109,7 @@ input[type='search']:focus {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-image: url(Images/Icons/profile-pic-test.jpg);
+    background-image: url(Images/Icons/Stormtrooper-1.png);
     background-position: center;
     background-size: cover;
 }
@@ -135,7 +135,7 @@ input[type='search']:focus {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    background-image: url(Images/Icons/profile-pic-test.jpg);
+    background-image: url(Images/Icons/Stormtrooper-1.png);
     background-position: center;
     background-size: cover;
 }
@@ -277,11 +277,29 @@ input[type='search']:focus {
     align-items: center;
 }
 
-.trending-account > div:nth-child(1) {
+.trending-card > .trending-account:nth-child(1) > div:nth-child(1) {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-image: url(Images/Icons/profile-pic-test.jpg);
+    background-image: url(Images/Icons/Stormtrooper-3.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-card > .trending-account:nth-child(2) > div:nth-child(1) {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(Images/Icons/Stormtrooper-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-card > .trending-account:nth-child(3) > div:nth-child(1) {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(Images/Icons/Stormtrooper-2.jfif);
     background-position: center;
     background-size: cover;
 }
